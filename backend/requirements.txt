@@ -1,0 +1,26 @@
+# Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+tortoise-orm[asyncpg]==0.21.0
+aiomysql==0.2.0
+pymysql==1.1.0
+aerich==0.7.2
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+
+# Validation
+pydantic[email]==2.5.3
+pydantic-settings==2.1.0
+
+# Image handling
+cloudinary==1.36.0
+
+# Utils
+python-dotenv==1.0.0
+email-validator==2.1.0
